@@ -1,0 +1,80 @@
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+         .tab-button.active-tab {
+            border-bottom: 2px solid #4CAF50;
+        }
+            .tab-panel {
+            transition: transform 0.3s ease-in-out;
+            transform: translateX(100%);
+        }
+        .tab-panel.active {
+            transform: translateX(0);
+        }
+
+       
+
+
+
+
+
+
+
+
+        .tab-slider {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            width: 100%;
+            height: 100px; /* Adjust height as needed */
+        }
+        
+        .slider {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+        
+        .tab {
+            display: flex;
+            gap: 24px; /* Space between titles */
+            white-space: nowrap;
+        }
+        
+        .prev-arrow, .next-arrow {
+            color: #333;
+            border: none;
+            padding: 10px 20px;
+            font-size: 24px;
+            cursor: pointer;
+            border-radius: 5px;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        
+        .prev-arrow {
+            left: 10px;
+        }
+        
+        .next-arrow {
+            right: 10px;
+        }
+        
+        .prev-arrow:hover, .next-arrow:hover {
+            background-color: #555;
+        }
+        
+
+        h3 {
+            cursor: pointer;
+            transition: color 0.3s ease-in-out;
+          }
+          
+          h3:hover {
+            color: #007bff; /* Blue on hover */
+          }
+          
